@@ -12,6 +12,7 @@ def rollDice(img):
 #Create the window
 root=Tk()
 root.title('Dice Rolling Simulator')
+root.resizable(0,0)
 
 #Create images
 n1=ImageTk.PhotoImage(Image.open("images/n1.png"))
